@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>禹保防水</title>
+	<style type="text/css">
+		#container{height: 3480px;
+			width: 1920px;
+			
+
+		}
+		a{
+			text-decoration: none;
+			color: #424e49;
+		}
+
+		.header{
+			height: 204px;
+			width: 1500px;
+			
+			margin-left: 210px;
+		}
+		.navder{height: 550px;
+			width: 1920px;
+			background-color: #bbb;}
+		.main{height: 2128px;
+			width: 1500px;
+			
+			/*盒子模型坐外边距210*/
+			 margin-left: 210px;
+
+		}
+		.footer{height: 465px;
+			width: 1500px;
+			background-color: #eee;
+			margin-top: 93px;
+			/*盒子模型坐外边距210*/
+			 margin-left: 210px;
+
+		}
+		.LOGO{height: 84px;
+			width: 1246px;
+			
+			margin-bottom: 20px;
+
+		}
+		.NavigationText{height: 100px;
+			width: 1500px;
+			
+		}
+		.logo{height: 84px;
+			width: 166px;
+			float: left;
+			}
+
+		.Text{height: 84px;
+			width: 896px;
+			
+			float: left;
+			margin-left: 184px;
+		}
+		.Text1{height: 84px;
+			width: 149px;
+			color: #424e49;
+			float: left;
+			font-size: 16px;
+			font:微软雅黑;
+			/*text-align: center; /*设置文本水平居中*/
+			margin-top: 17px; 
+
+		}
+		.Dh1{
+			height: 100px;
+			width: 300px;
+			text-align: center;
+			 /*  透明度 R G B Alpha（不透明度为50%） */
+                background-color: rgba(44, 260, 79, 1);
+                /* 圆角矩形 */
+                -moz-border-radius: 1.5em;
+                -webkit-border-radius: 1.5em;
+                border-radius: 1.5em;
+                /*阴影*/
+
+			 box-shadow: 3px 3px 6px #f8f8f8;
+			 float: left;
+			 /*盒子模型外边距100*/
+			 margin-right: 100px;
+
+
+		}
+		.Dh2{
+			height: 100px;
+			width: 300px;
+			text-align: center;
+			 /*  透明度 R G B Alpha */
+                background-color: rgba(156, 176, 89, 1);
+                /* 圆角矩形1.5 */
+                -moz-border-radius: 1.5em;
+                -webkit-border-radius: 1.5em;
+                border-radius: 1.5em;
+
+			 box-shadow: 3px 3px 6px #f8f8f8;
+			 /*父元素左浮动*/
+			 float: left;
+			 margin-right: 100px;
+
+
+		}
+		.Dh3{
+			height: 100px;
+			width: 300px;
+			text-align: center;
+			 /*  透明度 R G B Alpha */
+                background-color: rgba(119, 147, 134, 1);
+                /* 圆角矩形1.5 */
+                -moz-border-radius: 1.5em;
+                -webkit-border-radius: 1.5em;
+                border-radius: 1.5em;
+
+			 box-shadow: 3px 3px 6px #f8f8f8;
+			 /*父元素左浮动*/
+			 float: left;
+			
+
+
+		}
+		.Dh4{
+			height: 100px;
+			width: 300px;
+			text-align: center;
+			 /*  透明度 R G B Alpha */
+                background-color: rgba(66, 78, 73, 1);
+                /* 圆角矩形1.5 */
+                -moz-border-radius: 1.5em;
+                -webkit-border-radius: 1.5em;
+                border-radius: 1.5em;
+
+			 box-shadow: 3px 3px 6px #f8f8f8;
+			 /*父元素右浮动*/
+			 float: right;
+			 /*父元素右浮动，去掉了右边的外边距*/
+			 
+
+		}
+		.Brandgoodgoods{
+			height: 1324px;
+			width: 1500px;
+			
+
+		}
+		.MainTitle{
+			height: 86px;
+			width: 1500px;
+			
+			font-size: 32px;
+			color:#2bce4f; 
+			padding-top: 54px;
+
+		}
+		.commodityarea{
+			height: 1184px;
+			width: 1500px;
+			
+		}
+		.commodity1{
+			height: 500px;
+			width: 1500px;
+			
+			margin-bottom: 60px;
+
+		}
+		.product1{
+			height: 500px;
+			width: 350px;
+			background-color: #e6f0e5;
+			/* 圆角矩形 */
+                -moz-border-radius: 1.5em;
+                -webkit-border-radius: 1.5em;
+                border-radius: 1.5em;
+                float: left;
+                /*阴影*/
+
+			 box-shadow: 6px 6px 10px #f6f6f6;
+			 margin-right: 225px;
+			 font-size: 22px;
+			 color: #ffffff;
+
+
+		}
+		.product2{
+			height: 500px;
+			width: 350px;
+			background-color: #e6f0e5;
+			/* 圆角矩形 */
+                -moz-border-radius: 1.5em;
+                -webkit-border-radius: 1.5em;
+                border-radius: 1.5em;
+                float: right;
+                /*阴影*/
+
+			 box-shadow: 6px 6px 10px #f6f6f6;
+			 font-size: 22px;
+			 color: #ffffff;
+
+
+		}
+		.commodity2{
+			height: 60px;
+			width: 200px;
+			background-color: #2bce4f;
+			/* 圆角矩形 */
+                -moz-border-radius: 1em;
+                -webkit-border-radius: 1em;
+                border-radius: 1em;
+                float: right;
+                /*阴影*/
+
+			 box-shadow: 3px 3px 5px #f6f6f6;
+            }
+            .Field1{
+            	height: 500px;
+			    width: 350px;
+			    background-color: #acc1c1;
+			/* 圆角矩形 */
+                -moz-border-radius: 1.5em;
+                -webkit-border-radius: 1.5em;
+                border-radius: 1.5em;
+                float: left;
+                /*阴影*/
+
+			 box-shadow: 6px 6px 10px #f6f6f6;
+			 margin-right: 33.33333px;
+			 margin-bottom: 80px;
+
+
+
+            }
+            .Field3{
+            	height: 500px;
+			    width: 350px;
+			    background-color: #dbe8b2;
+			/* 圆角矩形 */
+                -moz-border-radius: 1.5em;
+                -webkit-border-radius: 1.5em;
+                border-radius: 1.5em;
+                float: left;
+                /*阴影*/
+
+			 box-shadow: 6px 6px 10px #f6f6f6;
+			 margin-right: 33.33333px;
+			 margin-bottom: 80px;
+			}
+			.Field4{
+            	height: 500px;
+			    width: 350px;
+			    background-color: #ebdfb5;
+			/* 圆角矩形 */
+                -moz-border-radius: 1.5em;
+                -webkit-border-radius: 1.5em;
+                border-radius: 1.5em;
+                float: left;
+                /*阴影*/
+
+			 box-shadow: 6px 6px 10px #f6f6f6;
+			 margin-right: 33.33333px;
+			 margin-bottom: 80px;
+			}
+
+
+            .Field2{
+            	height: 500px;
+			    width: 350px;
+			    background-color: #ebe0ab;
+			/* 圆角矩形 */
+                -moz-border-radius: 1.5em;
+                -webkit-border-radius: 1.5em;
+                border-radius: 1.5em;
+                float: right;
+                /*阴影*/
+
+			 box-shadow: 6px 6px 10px #f6f6f6;
+			 margin-bottom: 80px;
+			 
+
+
+
+            }
+
+		
+
+
+
+
+
+
+	</style>
+</head>
+<body>
+	<div id="container">
+		<div class="header">
+			<div class="LOGO">
+				<div class="logo">
+					<a href="#"><img src="img/LOGO.png" alt="LOGO"></a>
+				</div>
+				<div class="Text">
+					<div class="Text1"><a href="#"><p>首页</p></a></div>
+					<div class="Text1"><a href="#"><p>关于禹保</p></a></div>
+					<div class="Text1"><a href="#"><p>企业文化</p></a></div>
+					<div class="Text1"><a href="#"><p>产品商城</p></a></div>
+					<div class="Text1"><a href="#"><p>我要咨询</p></a></div>
+					<div class="Text1"><a href="#"><p>寻求服务</p></a></div>
+				</div>
+			</div>
+			<div class="NavigationText"> 
+				<div class="Dh1"><a href="#"><img src="img/Dh1.png" alt="家居涂料"></a></div>
+				<div class="Dh2"><a href="#"><img src="img/Dh2.png" alt="防水涂料"></a></div>
+				<div class="Dh3"><a href="#"><img src="img/Dh3.png" alt="辅料"></a></div>
+				<div class="Dh4"><a href="#"><img src="img/Dh4.png" alt="粉类"></a></div>
+
+			  </div>
+		</div>
+		<div class="navder"><a href="#"><img src="img/banner.jpg"></a></div>
+		
+		<div class="main">
+			<div class="Brandgoodgoods">
+				<div class="MainTitle">
+					<center>
+					<p style="margin-top: 0px;" >品牌好货</p></center>
+				</div>
+				<div class="commodityarea">
+					<div class="commodity1">
+						<div class="product2"><a href="#"><img src="img/blanklinks.png"></a>
+
+							<center><p>宝塔山氟碳漆</p></center>
+						</div>
+						<div class="product1"><a href="#"><img src="img/blanklinks.png"></a>
+
+							<center><p>宝塔山氟碳漆</p></center>
+						</div>
+
+						<div class="product1"><a href="#"><img src="img/blanklinks.png"></a>
+
+							<center><p>宝塔山氟碳漆</p></center>
+						</div>
+
+					</div>
+					<div class="commodity1">
+						<div class="product2"><a href="#"><img src="img/blanklinks.png"></a>
+
+							<center><p>宝塔山氟碳漆</p></center>
+						</div>
+						<div class="product1"><a href="#"><img src="img/blanklinks.png"></a>
+
+							<center><p>宝塔山氟碳漆</p></center>
+						</div>
+
+						<div class="product1"><a href="#"><img src="img/blanklinks.png"></a>
+
+							<center><p>宝塔山氟碳漆</p></center>
+						</div>
+					</div>
+					<div class="commodity2">
+						<a href="#"><img src="img/Geduo.png"></a>
+					</div>
+
+
+				</div>
+			</div>
+			<div class="applicationfield">
+				<div class="MainTitle">
+					<center>
+					<p style="margin-top: 0px;" >应用领域</p></center>
+				</div>
+				<div class="Field1" ></div>
+				<div class="Field3" ></div>
+				<div class="Field4" ></div>
+				<div class="Field2" ></div>
+				<div class="commodity2">
+						<a href="#"><img src="img/Geduo.png"></a>
+					</div>
+			</div>
+
+		</div>
+		
+		<div class="footer"></div>
+	</div>
+
+</body>
+</html>
